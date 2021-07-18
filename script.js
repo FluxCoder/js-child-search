@@ -1,6 +1,5 @@
 function childSearch(parent, child, callback = null) {
   var found = true;
-  var search = null;
 
   var nest = child.split(".");
   var nests = nest.length;
